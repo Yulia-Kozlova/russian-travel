@@ -1,0 +1,8 @@
+.header__vector-ellipse_dot_kotelniki {
+    position: absolute;
+    width: 0.7%;
+    top: 64.6%;
+    left: 43.77%;
+    z-index: 2;
+    transform: translateY(-50%);
+  }

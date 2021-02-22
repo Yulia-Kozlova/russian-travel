@@ -1,0 +1,13 @@
+.description__list-item {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;/* or 150% */
+    color: #FFFFFF;
+  }
+@media all and (max-width: 320px) {  
+  .description__list-item {
+    font-size: 12px;
+    line-height: 18px;/* or 150% */
+  }
+}

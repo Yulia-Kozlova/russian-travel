@@ -1,0 +1,8 @@
+.header__vector{
+    position: absolute;
+    max-width: 90%;
+    top: 21%;
+    left: 3.76%;
+    z-index: 1;
+    overflow: visible;
+  }

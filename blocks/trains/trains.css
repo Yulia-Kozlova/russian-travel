@@ -1,0 +1,24 @@
+.trains {
+    grid-area: trains;
+    width: calc(100% - 48px*2);
+    margin: 12px auto 92px;
+    background-image: url(../../images/cover-trains.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+@media screen and (max-width: 1024px) {
+  .trains {
+    width: 100%;
+  }
+} 
+@media screen and (max-width: 768px) {
+  .trains {
+    margin: 0 auto 88px;
+  }
+} 
+@media all and (max-width: 320px) { 
+  .trains {
+    width: 100%;
+    margin: 12px auto 64px;
+  }
+}

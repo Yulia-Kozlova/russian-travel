@@ -1,0 +1,26 @@
+.sightseeings__text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 163%;/* or 29px */
+    color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 26px;
+  }
+  .sightseeings__text:last-of-type {
+    margin-bottom: 0;
+  }
+@media screen and (max-width: 768px) {
+  .sightseeings__text {
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+}
+@media all and (max-width: 320px) { 
+  .sightseeings__text {
+    font-size: 16px;
+    line-height: 163%;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+  }  
+}

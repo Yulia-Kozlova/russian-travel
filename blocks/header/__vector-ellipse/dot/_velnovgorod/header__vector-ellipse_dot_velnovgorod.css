@@ -1,0 +1,8 @@
+.header__vector-ellipse_dot_velnovgorod {
+    position: absolute;
+    width: 0.7%;
+    top: 0;
+    left: 9.17%;
+    transform: translateY(-50%);
+    z-index: 2;
+  }

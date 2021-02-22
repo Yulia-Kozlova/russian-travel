@@ -1,0 +1,21 @@
+.sightseeings__image {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+  }
+@media screen and (max-width: 768px) {
+  .sightseeings__image {
+    width: 340px;
+    height: 340px;
+  }
+}
+@media all and (max-width: 320px) { 
+  .sightseeings__image {
+    width: 320px;
+    height: 320px;
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+}

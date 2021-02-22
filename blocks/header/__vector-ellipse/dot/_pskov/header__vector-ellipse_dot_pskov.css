@@ -1,0 +1,8 @@
+.header__vector-ellipse_dot_pskov {
+  position: absolute;
+  width: 0.71%;
+  top: 40.5%;
+  left: 0;
+  z-index: 2;
+  transform: translateX(-50%);
+}

@@ -1,0 +1,28 @@
+.header__caption{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px; 
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-top: 8px;
+    margin-bottom: 0;
+    margin-left: 0;
+  }
+@media screen and (max-width: 768px) {
+  .header__caption{
+    margin-left: 24px;
+  }
+}
+@media all and (max-width: 320px) { 
+  .header__caption{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px; 
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-top: 8px;
+    margin-bottom: 0;
+  }
+}
