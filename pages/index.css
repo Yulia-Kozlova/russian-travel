@@ -63,12 +63,9 @@
 @import url(../blocks/header/__vector-ellipse/dot/_krasnoyarsk/header__vector-ellipse_dot_krasnoyarsk.css);
 @import url(../blocks/header/__vector-ellipse/_stroke/_krasnoyarsk/header__vector-ellipse_stroke_krasnoyarsk.css);
 @import url(../blocks/header/__vector/_city/_krasnoyarsk/header__vector_city_krasnoyarsk.css);
-
-
 @import url(../blocks/header/__vector-ellipse/dot/_ulan-ude/header__vector-ellipse_dot_ulan-ude.css);
 @import url(../blocks/header/__vector-ellipse/_stroke/_ulan-ude/header__vector-ellipse_stroke_ulan-ude.css);
 @import url(../blocks/header/__vector/_city/_ulan-ude/header__vector_city_ulan-ude.css);
-
 @import url(../blocks/header/__image/header__image.css);
 @import url(../blocks/header/__caption/header__caption.css);
 @import url(../blocks/description/description.css);
@@ -79,8 +76,7 @@
 @import url(../blocks/gallery/__image/gallery__image.css);
 @import url(../blocks/gallery/gallery.css);
 @import url(../blocks/gallery/__image/gallery__image.css);
-
-@import url(../blocks/sightseeings/sightseeings.css);
+@import url(../blocks/sightseeings/__wide/sightseeings__wide.css);
 @import url(../blocks/sightseeings/__narrow/sightseeings__narrow.css);
 @import url(../blocks/sightseeings/__title/sightseeings__title.css);
 @import url(../blocks/sightseeings/__image/sightseeings__image.css);
@@ -89,7 +85,6 @@
 @import url(../blocks/sightseeings/__link/sightseeings__link.css);
 @import url(../blocks/sightseeings/__paragragh/sightseeings__paragragh.css);
 @import url(../blocks/sightseeings/__text/sightseeings__text.css);
-
 @import url(../blocks/trains/trains.css);
 @import url(../blocks/trains/__text/trains__text.css);
 @import url(../blocks/trains/__title/trains__title.css);
