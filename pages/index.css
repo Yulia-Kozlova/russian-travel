@@ -79,8 +79,9 @@
 @import url(../blocks/gallery/__image/gallery__image.css);
 @import url(../blocks/gallery/gallery.css);
 @import url(../blocks/gallery/__image/gallery__image.css);
+
 @import url(../blocks/sightseeings/sightseeings.css);
-@import url(../blocks/sightseeings/sightseeings__narrow/sightseeings__narrow.css);
+@import url(../blocks/sightseeings/__narrow/sightseeings__narrow.css);
 @import url(../blocks/sightseeings/__title/sightseeings__title.css);
 @import url(../blocks/sightseeings/__image/sightseeings__image.css);
 @import url(../blocks/sightseeings/__link-container/sightseeings__link-container.css);
@@ -88,6 +89,7 @@
 @import url(../blocks/sightseeings/__link/sightseeings__link.css);
 @import url(../blocks/sightseeings/__paragragh/sightseeings__paragragh.css);
 @import url(../blocks/sightseeings/__text/sightseeings__text.css);
+
 @import url(../blocks/trains/trains.css);
 @import url(../blocks/trains/__text/trains__text.css);
 @import url(../blocks/trains/__title/trains__title.css);
