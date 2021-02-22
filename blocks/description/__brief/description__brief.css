@@ -5,7 +5,6 @@
     line-height: 58px;
     color: #FFFFFF;
     max-width: 690px;
-  /* identical to box height, or 107% */ 
     margin: 0;
   }
 @media screen and (max-width: 768px) {
