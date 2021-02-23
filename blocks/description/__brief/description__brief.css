@@ -7,12 +7,12 @@
     max-width: 690px;
     margin: 0;
   }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .description__brief {
     max-width: 720px;
   }
 }
-@media all and (max-width: 320px) {
+@media all and (max-width: 319px) {
   .description__brief {
     font-size: 32px;
     line-height: 35px;
