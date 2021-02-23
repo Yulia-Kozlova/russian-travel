@@ -1,3 +1,4 @@
+@import url(../vendor/normalize.css);
 @import url(../blocks/root/root.css);
 @import url(../blocks/header/__logo-lang/header__logo-lang.css);
 @import url(../blocks/header/__logo/header__logo.css);
@@ -6,66 +7,6 @@
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__subtitle/header__subtitle.css);
 @import url(../blocks/header/__illustration/header__illustration.css);
-@import url(../blocks/header/__vector/header__vector.css);
-@import url(../blocks/header/__vector-line/header__vector-line.css);
-
-
-@import url(../blocks/header/__vector-ellipse/dot/_pskov/header__vector-ellipse_dot_pskov.css);
-@import url(../blocks/header/__vector-ellipse/_stroke/_pskov/header__vector-ellipse_stroke_pskov.css);
-@import url(../blocks/header/__vector/_city/_pskov/header__vector_city_pskov.css);
-
-
-@import url(../blocks/header/__vector-ellipse/dot/_velnovgorod/header__vector-ellipse_dot_velnovgorod.css);
-@import url(../blocks/header/__vector-ellipse/_stroke/_velnovgorod/header__vector-ellipse_stroke_velnovgorod.css);
-@import url(../blocks/header/__vector/_city/_velnovgorod/header__vector_city_velnovgorod.css);
-
-
-@import url(../blocks/header/__vector-ellipse/dot/_tver/header__vector-ellipse_dot_tver.css);
-@import url(../blocks/header/__vector-ellipse/_stroke/_tver/header__vector-ellipse_stroke_tver.css);
-@import url(../blocks/header/__vector/_city/_tver/header__vector_city_tver.css);
-
-
-@import url(../blocks/header/__vector-ellipse/dot/_yaroslavl/header__vector-ellipse_dot_yaroslavl.css);
-@import url(../blocks/header/__vector-ellipse/_stroke/_yaroslavl/header__vector-ellipse_stroke_yaroslavl.css);
-@import url(../blocks/header/__vector/_city/_yaroslavl/header__vector_city_yaroslavl.css);
-
-
-@import url(../blocks/header/__vector-ellipse/dot/_manturovo/header__vector-ellipse_dot_manturovo.css);
-@import url(../blocks/header/__vector-ellipse/_stroke/_manturovo/header__vector-ellipse_stroke_manturovo.css);
-@import url(../blocks/header/__vector/_city/_manturovo/header__vector_city_manturovo.css);
-
-
-@import url(../blocks/header/__vector-ellipse/dot/_kotelniki/header__vector-ellipse_dot_kotelniki.css);
-@import url(../blocks/header/__vector-ellipse/_stroke/_kotelniki/header__vector-ellipse_stroke_kotelniki.css);
-@import url(../blocks/header/__vector/_city/_kotelniki/header__vector_city_kotelniki.css);
-
-
-@import url(../blocks/header/__vector-ellipse/dot/_glazov/header__vector-ellipse_dot_glazov.css);
-@import url(../blocks/header/__vector-ellipse/_stroke/_glazov/header__vector-ellipse_stroke_glazov.css);
-@import url(../blocks/header/__vector/_city/_glazov/header__vector_city_glazov.css);
-
-
-@import url(../blocks/header/__vector-ellipse/dot/_perm/header__vector-ellipse_dot_perm.css);
-@import url(../blocks/header/__vector-ellipse/_stroke/_perm/header__vector-ellipse_stroke_perm.css);
-@import url(../blocks/header/__vector/_city/_perm/header__vector_city_perm.css);
-
-
-@import url(../blocks/header/__vector-ellipse/dot/_tumen/header__vector-ellipse_dot_tumen.css);
-@import url(../blocks/header/__vector-ellipse/_stroke/_tumen/header__vector-ellipse_stroke_tumen.css);
-@import url(../blocks/header/__vector/_city/_tumen/header__vector_city_tumen.css);
-
-
-@import url(../blocks/header/__vector-ellipse/dot/_omsk/header__vector-ellipse_dot_omsk.css);
-@import url(../blocks/header/__vector-ellipse/_stroke/_omsk/header__vector-ellipse_stroke_omsk.css);
-@import url(../blocks/header/__vector/_city/_omsk/header__vector_city_omsk.css);
-
-
-@import url(../blocks/header/__vector-ellipse/dot/_krasnoyarsk/header__vector-ellipse_dot_krasnoyarsk.css);
-@import url(../blocks/header/__vector-ellipse/_stroke/_krasnoyarsk/header__vector-ellipse_stroke_krasnoyarsk.css);
-@import url(../blocks/header/__vector/_city/_krasnoyarsk/header__vector_city_krasnoyarsk.css);
-@import url(../blocks/header/__vector-ellipse/dot/_ulan-ude/header__vector-ellipse_dot_ulan-ude.css);
-@import url(../blocks/header/__vector-ellipse/_stroke/_ulan-ude/header__vector-ellipse_stroke_ulan-ude.css);
-@import url(../blocks/header/__vector/_city/_ulan-ude/header__vector_city_ulan-ude.css);
 @import url(../blocks/header/__image/header__image.css);
 @import url(../blocks/header/__caption/header__caption.css);
 @import url(../blocks/description/description.css);
