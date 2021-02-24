@@ -6,12 +6,12 @@
     object-fit: cover;
     margin: 92px auto;
   }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
   .gallery {
     gap: 14px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .gallery {
     max-width: calc(100% - 24px*2);
     gap: 16px;
@@ -19,7 +19,7 @@
     margin: 88px auto;
   }
 }
-@media all and (max-width: 320px) { 
+@media all and (max-width: 767px) { 
   .gallery {
     max-width: calc(100% - 16px*2);
     grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));

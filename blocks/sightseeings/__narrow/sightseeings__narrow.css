@@ -7,7 +7,7 @@
   row-gap: 48px;
   column-gap: 40px;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
   .sightseeings__narrow {
     width: calc(100% - 48px*2);
     margin: 0 auto 80px;
@@ -16,7 +16,7 @@
     column-gap: 32px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .sightseeings__narrow {
     width: calc(100% - 24px*2);
     margin: 0 auto 73px;
@@ -27,16 +27,16 @@
   .sightseeings__narrow:last-of-type {
     margin: 0 auto 90px;
   }
-  .sightseeings__narrow:nth-of-type(2) {
-    margin: 0 auto 27px;
-  }
 }
-@media all and (max-width: 320px) { 
+@media all and (max-width: 767px) { 
   .sightseeings__narrow  {
     width: 320px;
-    margin: 0 auto 50px;
+    margin: 0 0 50px 0;
     grid-column: 320px;
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: 35px 66px 320px 1fr;
     row-gap: 32px;
+  }
+  .sightseeings__narrow:last-of-type {
+    margin: 0 0 66px 0;
   }
 } 

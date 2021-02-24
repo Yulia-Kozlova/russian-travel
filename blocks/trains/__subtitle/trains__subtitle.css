@@ -1,17 +1,17 @@
 .trains__subtitle{
-    width: 360px;
-    font-style: normal;
+    max-width: 360px;
     font-weight: normal;
     font-size: 18px;
-    line-height: 122%;/* or 22px*/
+    line-height: 122%;
     text-align: center;
-    color: #FFFFFF;
     margin: 0 auto;
   }
-@media all and (max-width: 320px) { 
+@media all and (max-width: 767px) { 
   .trains__subtitle { 
-    width: 258px;
+    width: 288px;
+    height: 48px;
     font-size: 14px;
     line-height: 16px;
+    margin-left: -7%;
   }
 }

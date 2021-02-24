@@ -16,7 +16,6 @@
 }
 @media all and (max-width: 320px) { 
   .header__caption{
-    font-style: normal;
     font-weight: normal;
     font-size: 10px;
     line-height: 14px;

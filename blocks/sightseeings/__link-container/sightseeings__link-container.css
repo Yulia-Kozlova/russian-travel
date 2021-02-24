@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content: flex-end;
   }
-@media all and (max-width: 320px) { 
+@media all and (max-width: 767px) { 
   .sightseeings__link-container {
     padding-left: 16px;
     grid-column: 1/2;

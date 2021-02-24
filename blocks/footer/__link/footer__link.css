@@ -1,14 +1,13 @@
 .footer__link{
     text-align: end;
-    font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 112%;
-    color: #FFFFFF;
     padding-right: 18px;
     text-decoration: none;
+    color: #fff;
   }
-@media all and (max-width: 320px) { 
+@media all and (max-width: 767px) { 
   .footer__link{
     font-size: 24px;
     line-height: 24px;

@@ -1,15 +1,5 @@
 .description__list {
-    width: 690px;
     list-style: none;
     padding-left: 0;
+    margin: 0;
   }
-@media screen and (max-width: 768px) {
-  .description__list {
-    width: 720px;
-  }
-}
-@media all and (max-width: 320px) { 
-  .description__list {
-    width: 288px;
-  }
-}

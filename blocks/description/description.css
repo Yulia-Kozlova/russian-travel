@@ -1,22 +1,27 @@
 .description {
     grid-area: description;
-    max-width: calc(100% - 148px*2);
-    margin: 92px auto;
+    max-width: 690px;
+    margin-top: 92px;
+    margin-left: 148px;
+    margin-bottom: 92px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
   }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
   .description {
-    grid-area: description;
-    max-width: calc(100% - 48px*2);
-    margin: 92px auto;
+    margin-top: 92px;
+    margin-left: 48px;
+    margin-bottom: 92px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .description {
     max-width: calc(100% - 24px*2);
     margin: 88px auto;
   }
 }  
-@media all and (max-width: 320px) { 
+@media all and (max-width: 767px) { 
   .description {
     max-width: calc(100% - 16px*2);
     margin: 64px auto;

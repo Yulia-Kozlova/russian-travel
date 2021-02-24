@@ -6,16 +6,14 @@
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
-    line-height: 76px;
-  /* or 106% */
-    color: #FFFFFF;
+    line-height: 106%;
   }
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1279px) {
   .sightseeings__title {
     margin-bottom: 27px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .sightseeings__title {
     font-size: 42px;
     line-height: 110%;
@@ -26,7 +24,7 @@
     padding-right: 20px;
   }
 }
-@media all and (max-width: 320px) { 
+@media all and (max-width: 767px) { 
   .sightseeings__title {
     padding-left: 16px;
     grid-column: 1/2;

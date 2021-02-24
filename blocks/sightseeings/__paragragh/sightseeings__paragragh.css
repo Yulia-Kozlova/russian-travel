@@ -2,7 +2,7 @@
     grid-column: 2/3;
     grid-row: 2/3;
   }
-@media all and (max-width: 320px) { 
+@media all and (max-width: 767px) { 
   .sightseeings__paragragh {
     margin-left: 16px;
     width: 288px;

@@ -1,17 +1,23 @@
 .sightseeings__image {
     grid-column: 1/2;
     grid-row: 2/3;
-    width: 100%;
-    height: 100%;
+    width: 460px;
+    height: 460px;
     object-fit:cover;
   }
-@media screen and (max-width: 768px) {
+  @media screen and (max-width: 1279px) {
+    .sightseeings__image {
+      width: 440px;
+      height: 440px;
+    }
+  }
+@media screen and (max-width: 1023px) {
   .sightseeings__image {
     width: 340px;
     height: 340px;
   }
 }
-@media all and (max-width: 320px) { 
+@media all and (max-width: 767px) { 
   .sightseeings__image {
     width: 320px;
     height: 320px;
