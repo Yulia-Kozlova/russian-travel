@@ -12,6 +12,7 @@
     height: 48px;
     font-size: 14px;
     line-height: 16px;
-    margin-left: -7%;
+    margin: 0 auto;
+    padding-left: -7%;
   }
 }

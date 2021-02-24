@@ -32,8 +32,7 @@
   .sightseeings__narrow  {
     width: 320px;
     margin: 0 0 50px 0;
-    grid-column: 320px;
-    grid-template-rows: 35px 66px 320px 1fr;
+    grid-column: 1fr;
     row-gap: 32px;
   }
   .sightseeings__narrow:last-of-type {
