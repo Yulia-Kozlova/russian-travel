@@ -1,8 +1,9 @@
 .description__brief {
-    font-weight: 900;
-    font-size: 54px;
-    line-height: 58px;
-    margin: 0;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+  margin: 0;
   }
 @media all and (max-width: 767px) {
   .description__brief {

@@ -1,10 +1,11 @@
 .sightseeings__text {
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 163%;
-    margin-top: 0;
-    margin-bottom: 26px;
-  }
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 163%;
+  margin-top: 0;
+  margin-bottom: 26px;
+}
   .sightseeings__text:last-of-type {
     margin-bottom: 0;
   }
