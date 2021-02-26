@@ -1,25 +1,32 @@
-@import url(../vendor/fonts/inter.css);
 @import url(../vendor/normalize.css);
+@import url(../vendor/fonts/inter.css);
 @import url(../blocks/root/root.css);
+
 @import url(../blocks/header/__logo-lang/header__logo-lang.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang-links/header__lang-links\ .css);
+@import url(../blocks/header/__lang-list/header__lang-list.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
-@import url(../blocks/header/__title/header__title.css);
-@import url(../blocks/header/__subtitle/header__subtitle.css);
-@import url(../blocks/header/__illustration/header__illustration.css);
-@import url(../blocks/header/__image/header__image.css);
-@import url(../blocks/header/__caption/header__caption.css);
+
+
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__illustration/lead__illustration.css);
+@import url(../blocks/lead/__image/lead__image.css);
+@import url(../blocks/lead/__caption/lead__caption.css);
+
 @import url(../blocks/description/description.css);
 @import url(../blocks/description/__brief/description__brief.css);
 @import url(../blocks/description/__text/description__text.css);
 @import url(../blocks/description/__list/description__list.css);
 @import url(../blocks/description/__list-item/description__list-item.css);
+@import url(../blocks/description/__span-accent/description__span-accent.css);
+
 @import url(../blocks/gallery/__image/gallery__image.css);
 @import url(../blocks/gallery/gallery.css);
 @import url(../blocks/gallery/__image/gallery__image.css);
-@import url(../blocks/sightseeings/__wide/sightseeings__wide.css);
-@import url(../blocks/sightseeings/__narrow/sightseeings__narrow.css);
+
+@import url(../blocks/sightseeings/__card/sightseeings__card.css);
 @import url(../blocks/sightseeings/__title/sightseeings__title.css);
 @import url(../blocks/sightseeings/__image/sightseeings__image.css);
 @import url(../blocks/sightseeings/__link-container/sightseeings__link-container.css);
@@ -27,11 +34,12 @@
 @import url(../blocks/sightseeings/__link/sightseeings__link.css);
 @import url(../blocks/sightseeings/__paragragh/sightseeings__paragragh.css);
 @import url(../blocks/sightseeings/__text/sightseeings__text.css);
+
 @import url(../blocks/trains/trains.css);
+@import url(../blocks/trains/__link/trains__link.css);
 @import url(../blocks/trains/__text/trains__text.css);
 @import url(../blocks/trains/__title/trains__title.css);
 @import url(../blocks/trains/__subtitle/trains__subtitle.css);
-@import url(../blocks/trains/__overlay/trains__overlay.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);

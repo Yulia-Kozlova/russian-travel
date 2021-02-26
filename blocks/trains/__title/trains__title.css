@@ -7,11 +7,12 @@
     line-height: 106%;
     margin: 0 auto 32px;
   }
-@media all and (max-width: 320px) { 
+@media all and (max-width: 767px) { 
   .trains__title {
     max-width: 288px;
     font-size: 32px;
     line-height: 35px;
+    padding: 0 40px;
     margin: 0 auto 16px;
   }
 }

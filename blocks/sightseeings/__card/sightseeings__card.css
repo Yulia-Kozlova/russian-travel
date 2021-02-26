@@ -1,0 +1,61 @@
+.sightseeings__card {
+    display: grid;
+    width: calc(100% - 148px*2);
+    margin: 0 auto 80px;
+    grid-template-columns: 460px  1fr;
+    grid-template-rows: 76px  1fr;
+    row-gap: 48px;
+    column-gap: 40px;
+    justify-content: center;
+  }
+.sightseeings__card:first-of-type {
+    grid-template-rows: 152px  1fr;
+}
+.sightseeings__card:nth-of-type(4) {
+    grid-template-rows: 152px  1fr;
+}
+.sightseeings__card:last-of-type {
+  margin-bottom: 92px;
+}
+@media screen and (max-width: 1279px) {
+    .sightseeings__card {
+      width: calc(100% - 48px*2);
+      grid-template-columns: 440px 1fr;
+      column-gap: 32px;
+    }
+  }  
+@media screen and (max-width: 1023px) {
+    .sightseeings__card {
+      width: calc(100% - 24px*2);
+      margin: 0 auto 73px;
+      grid-template-columns: 340px 1fr;
+      grid-template-rows: 46px 1fr;
+      column-gap: 28px;
+    }
+    .sightseeings__card:first-of-type {
+      grid-template-rows: 92px  1fr;
+    }
+    .sightseeings__card:nth-of-type(4) {
+      grid-template-rows: 46px  1fr;
+    }
+    .sightseeings__card:last-of-type {
+      margin: 0 auto 90px;
+    }
+  }  
+  @media all and (max-width: 767px) { 
+    .sightseeings__card  {
+      margin: 0 auto 50px;
+      grid-template-columns:  minmax(min-content, max-content);
+      grid-template-rows: 35px;
+      row-gap: 32px;
+    }
+    .sightseeings__card:first-of-type {
+      grid-template-rows: 35px;
+    }
+    .sightseeings__card:nth-of-type(4) {
+      grid-template-rows: 35px;
+    }
+    .sightseeings__card:last-of-type {
+      margin: 0 auto 66px ;
+    }
+  } 

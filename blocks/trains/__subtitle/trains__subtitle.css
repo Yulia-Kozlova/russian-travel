@@ -10,10 +10,8 @@
 @media all and (max-width: 767px) { 
   .trains__subtitle { 
     width: 288px;
-    height: 48px;
     font-size: 14px;
     line-height: 16px;
     margin: 0 auto;
-    padding-left: -7%;
   }
 }
