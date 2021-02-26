@@ -12,6 +12,7 @@
 } 
 }
 @media all and (max-width: 767px) { 
-.trains__text{
+.trains__text {
   margin: 33px auto;
+}
 }
