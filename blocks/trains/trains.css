@@ -1,4 +1,5 @@
 .trains {
+  width: calc(100% - 48px*2);
   min-height: 740px;
   margin: 0 auto 92px;
   background-image: url(../../images/cover-trains.jpg);
@@ -12,7 +13,7 @@
   }
   .trains::before {
   content: '';
-  background: black;
+  background: #2A2C2F;
   opacity: 0.3;
   position: absolute;
   top: 0;
@@ -30,7 +31,7 @@
   .trains {
     width: 100%;
     min-height: 640px;
-  }
+   }
   } 
   @media screen and (max-width: 1023px) {
   .trains {
